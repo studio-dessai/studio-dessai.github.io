@@ -2,7 +2,7 @@
 title: studio d'essai
 # email: dessai@4eb.org.au
 description: "Experimental electronic radio hour on 4eb Brisbane."
-baseurl: ""
+baseurl: "starter.md"
 url: "https://studio-dessai.github.io"
 
 # Build settings
