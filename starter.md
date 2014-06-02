@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /index.html
+permalink: index.html
 ---
 
 > Sound is the vocabulary of nature.
