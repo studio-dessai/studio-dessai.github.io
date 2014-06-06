@@ -1,7 +1,14 @@
 ---
 layout: post
-title: Studio d'essai i - playlist
+title: Studio d'essai i
 ---
+
+<a
+href="https://github.com/studio-dessai/podcasts/blob/master/Studio%20d%27essai%20i%20-%202014-06-05.ogg?raw=true">Download</a>
+or
+<a
+href="https://github.com/studio-dessai/podcasts/blob/master/Studio%20d%27essai%20i%20-%202014-06-05.ogg?raw=true">listen</a> 
+to this episode (as an .ogg file).
 
 1. Yellow Magic Orchestra - Rydeen (_Solid State Survivor_, Alfa, 1979, Japan)
 2. Aucan - Black Rainbow (_Black Rainbow_, La Tempesta International, 2011, Italy)
