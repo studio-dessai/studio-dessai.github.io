@@ -1,0 +1,9 @@
+---
+layout: post
+title: Studio d'essai ii
+---
+
+Right click → "Save as" to dowload (as an .ogg file) or click to listen to <a
+href="https://github.com/studio-dessai/podcasts/blob/master/Studio%20d%27essai%20iii%20-%202014-06-19.ogg?raw=true">this episode</a>.
+
+{% markdown https://github.com/studio-dessai/playlists/blob/master/2014.06.19.md %}
