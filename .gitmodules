@@ -1,0 +1,3 @@
+[submodule "playlists"]
+	path = playlists
+	url = https://github.com/studio-dessai/playlists.git

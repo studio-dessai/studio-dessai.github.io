@@ -6,7 +6,7 @@ module Jekyll
     end
     require "kramdown"
     def render(context)
-      "#{Kramdown::Document.new(File.read(File.join(Dir.pwd, '_includes/playlists', @text))).to_html}"
+      "#{Kramdown::Document.new(File.read(File.join(Dir.pwd, 'playlists', @text))).to_html}"
     end
   end
 end
