@@ -1,41 +1,26 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<title></title>
-	<meta name="generator" content="LibreOffice 4.2.7.2 (Linux)">
-	<meta name="created" content="0;0">
-	<meta name="changedby" content="Stéphane Guillou">
-	<meta name="changed" content="20141026;140541415912073">
-</head>
-<body lang="en-AU" dir="ltr" style="background: transparent">
-<p>--- layout: default --- 
-</p>
-<p><em>Studio d'essai</em> is an hour of experimental and electronic
-music transversing space and time on Brisbane's <a href="http://4eb.org.au/">4EB
-Global digital</a>, presented by Stéphane Guillou and <a href="http://pizpalu.net/">Lochlan
-Morrissey</a>. Listen live online from 10-11 pm Thursday nights (AEST
-or <a href="https://en.wikipedia.org/wiki/UTC%2B10:00">UTC+10</a>).</p>
-<p><br><br>
-</p>
-<p>You can find us on Diaspora: just search for “studio d'essai”
-or “studiodessai” and you should be right.</p>
-<p><br><br>
-</p>
-<p>Download episodes from the links below. Note that the files are
-.ogg, so make sure you have software capable of playing such files
-(e.g. <a href="https://www.videolan.org/vlc/">VLC media player</a> or
-<a href="http://www.clementine-player.org/">Clementine</a>).</p>
-<p><br><br>
-</p>
+---
+layout: default
+---
+<div class="home">
+<p><em>Studio d'essai</em> is an hour of mostly experimental electronic
+music transversing space and time on Brisbane's <a
+href="http://4eb.org.au">4EB Global digital</a>, presented by Stéphane
+Guillou and <a href="http://pizpalu.net">Lochlan Morrissey</a>. Listen live
+online from 10-11 pm Thursday nights (AEST or <a
+href="https://en.wikipedia.org/wiki/UTC%2B10:00">UTC+10</a>).</p>
+</br>
+<p>Download episodes from the links below. Note that the files are .ogg, so
+make sure you have software capable of playing such files (e.g. <a href="https://www.videolan.org/vlc/">VLC media
+player</a> or <a href="http://www.clementine-player.org/">Clementine</a>).</p>
+</br>
 <h1><b>Past episodes</b></h1>
-<ul>
-	<p style="margin-bottom: 0cm">{% for post in site.posts %} 
-	</p>
-	<li><p>{{ post.date | date: &quot;%b %-d, %Y&quot; }} <a href="%7B%7B%20post.url%20%7C%20prepend:%20site.baseurl%20%7D%7D">{{
-	post.title }}</a> {% endfor %} 
-	</p>
+<ul class="posts">
+{% for post in site.posts %}
+<li>
+<span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+</li>
+{% endfor %}
 </ul>
-<p>subscribe <a href="%7B%7B%20">via RSS</a></p>
-</body>
-</html>
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</div>
