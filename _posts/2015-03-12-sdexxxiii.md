@@ -3,11 +3,15 @@ layout: post
 title: "Studio d'essai xxxiii – the Internet Archive"
 ---
 
-Stéphane shares his selection from the Internet Archive. A lot of noise today! I realised after the show that the first two band actually share a member: [Mikhail Lezin](https://en.wikipedia.org/wiki/L-system), very prolific on the Internet Archive.
+Stéphane shares his selection from the [Internet Archive](https://archive.org/), a brilliant and massive digital repository dedicated to protecting digital media in the Internet age.
+
+A lot of noise in this episode, don't say I didn't warn you!
+
+I realised after the show that the first two bands actually share a member: [Mikhail Lezin](https://en.wikipedia.org/wiki/L-system), very prolific on the Internet Archive.
 
 If you are interested in learning more about the L-systems Zhang Li uses to create her music, head to the [Wikipedia article](https://en.wikipedia.org/wiki/L-system) on the subject.
 
-You can download all the releases we had a taste of from the links in the playlist. Make sure you check out Tom Fahy's [Auralnaut](http://auralnaut.com/)'s (+ Stag Record) and the Taiwanese [Kandala Records](http://www.kandalarecords.tw/)' label websites for more fascinating material.
+You can download all the releases we had a taste of from the links in the playlist. Make sure you also check out Tom Fahy's [Auralnaut](http://auralnaut.com/)'s (+ Stag Record) and the Taiwanese [Kandala Records](http://www.kandalarecords.tw/)' label websites for more fascinating material.
 
 Enjoy!
 
