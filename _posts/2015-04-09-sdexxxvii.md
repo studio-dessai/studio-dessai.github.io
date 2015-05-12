@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Studio d'essai xxxvii – Weightless"
+title: "Studio d'essai xxxvii – weightless"
 ---
 
 Tim and Steph talk about the Weightless movement and the grimey stuff around it. You might be interested into those few links we mentioned: the [Hyponik review](http://hyponik.com/reviews/rabit-baptizm-tri-angle/) of Rabit's Baptizm, the 2013 [Fabric interview](http://www.fabriclondon.com/blog/view/in-reverse-revisiting-processes-whilst-looking-forward-with-mumdance) of Mumdance and the [Andrew Tuttle cassette launch](https://www.facebook.com/events/302053286619227) at the Bearded Lady on the 23rd of April.
