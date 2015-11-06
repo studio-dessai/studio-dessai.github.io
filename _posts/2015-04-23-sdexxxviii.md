@@ -9,13 +9,6 @@ You might want to read the whole blurb about Bruce Haack's darkest releases on t
 
 Until the next hip hop episode, enjoy!
 
-<audio src="https://raw.githubusercontent.com/studio-dessai/podcasts/master/2015-04-23%20studio%20d%27essai%20xxxviii.ogg" controls>
-Your browser cannot play embedded audio. Download a better browser: but in the meantime, listen to the episode by downloading it below.
-</audio>
-
-Right click → "Save as" to dowload <a
-href="https://raw.githubusercontent.com/studio-dessai/podcasts/master/2015-04-23%20studio%20d%27essai%20xxxviii.ogg">this episode</a> as an .ogg file.
-
 1. [Bonnie Banane](http://musicbrainz.org/artist/fbeeac8c-5a26-4d7a-af73-15390fba3c6a) feat. [Waltaa](http://musicbrainz.org/artist/bddfa341-7e41-42b2-b786-f772ed4163ac) - Champs-Élysées (_Champs-Élysées_, Weirdata, 2014, France)
 1. [Makala](http://musicbrainz.org/artist/631fbbab-7bc2-48d2-a5ae-9ddc71756806) - Hastalavista (_Varaignée part 2_, Colors Records, 2015, France) – [download](http://www.makala.ch/) the double album
 1. [Depth Affect](http://musicbrainz.org/artist/bcff6798-9446-4aae-8a41-698d363e4147) feat. [CYNE](http://musicbrainz.org/artist/807b64cd-585e-4433-95ac-b06842574bfa) - One Day or So (_Arche-Lymb_, Autres Directions in Music, 2006, France / USA)

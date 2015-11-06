@@ -11,10 +11,6 @@ You can see him live in a series of very intimate concerts starting on the 14th 
 
 Thank you very much Erik for a great show! Looking forward to another one.
 
-<audio src="http://media.emit.com/4eb-d/studio-dessai/201507302200/aac_mid.m4a" controls>
-Your browser doesn't seem to be able to play embedded m4a audio.
-</audio>
-
 1. [Kraftwerk](http://musicbrainz.org/artist/5700dcd4-c139-4f31-aa3e-6382b9af9032) - Trans Europa Express (_Trans Europa Express_, Kling Klang, 1977, Germany)
 1. [Erik Griswold](http://musicbrainz.org/artist/7698e8a8-3e24-412b-9605-b7d671a58003) - Pale Yellow Frontier (_Pain Avoidance Machine_, ROOM40, 2015, USA / Australia)
 1. [Alarm Will Sound](http://musicbrainz.org/artist/9c52f2bc-bca9-40ec-9640-2976fdf24236) - Blue Calx (_Acoustica: Alarm Will Sound Performs Aphex Twin_, Cantaloupe Music, 2005, USA)

@@ -9,13 +9,6 @@ Oh, and the title of the Sd Laika song is actually (probably) a reference to an 
 
 Enjoy!
 
-<audio src="https://raw.githubusercontent.com/studio-dessai/podcasts/master/2015-04-09%20studio%20d%27essai%20xxxvii.ogg" controls>
-Your browser cannot play embedded audio. Download a better browser: but in the meantime, listen to the episode by downloading it below.
-</audio>
-
-Right click → "Save as" to dowload <a
-href="https://raw.githubusercontent.com/studio-dessai/podcasts/master/2015-04-09%20studio%20d%27essai%20xxxvii.ogg">this episode</a> as an .ogg file.
-
 1. [Mumdance](https://musicbrainz.org/artist/03ea3ca0-ddbc-4a8d-8428-7cb5069c1e3e), [Logos](https://musicbrainz.org/artist/7e86592a-c2cb-4b42-83f4-b94cb8bf33e4) & [Rabit](https://musicbrainz.org/artist/2e6c4963-cb32-4276-8b51-9c2c61de19ca) - Inside the Catacomb (_Weightless Volume 1_, Different Circles, 2014, England / England / USA)
 1. [Sd Laika](https://musicbrainz.org/artist/f612a52c-5ee2-4eaf-b638-aa51eec4250a) - Great God Pan (_That's Harakiri_, Tri Angle, 2014, USA)
 1. [Rabit](https://musicbrainz.org/artist/2e6c4963-cb32-4276-8b51-9c2c61de19ca) - Bloody Eye (_Baptizm_, Tri Angle, 2015, USA)
