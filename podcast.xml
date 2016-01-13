@@ -1,0 +1,33 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+ 
+  <channel>
+
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <language>en-uk</language>
+    <copyright>Copyleft 2016</copyright>
+    <lastBuildDate></lastBuildDate>
+    <pubDate></pubDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <webMaster>stephane@4eb.org.au</webMaster>
+	
+      {% for post in site.posts limit:4 %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid>http://media.emit.com/4eb-d/studio-dessai/{{ post.date | date: "%Y%m%d" }}2200/aac_mid.m4a</guid>
+	<enclosure url="http://media.emit.com/4eb-d/studio-dessai/{{ post.date | date: "%Y%m%d" }}2200/aac_mid.m4a" type="audio/mpeg"/>
+	<category>Podcasts</category>
+      </item>
+      {% endfor %}
+
+  </channel>
+
+</rss>
