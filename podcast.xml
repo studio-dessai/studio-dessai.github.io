@@ -3,7 +3,9 @@ layout: none
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
- 
+
+  <-- use gpodder best practice document for feeds: https://github.com/gpodder/podcast-feed-best-practice/blob/master/podcast-feed-best-practice.md --->
+  
   <channel>
 
     <title>{{ site.title | xml_escape }}</title>
@@ -14,10 +16,10 @@ layout: none
        <title>{{ site.title | xml_escape }}</title>
       <link>{{ site.url }}{{ site.baseurl }}/</link>
     </image>
-    <language>en-uk</language>
+    <language>en-AU</language>
     <copyright>Copyleft 2016</copyright>
     <lastBuildDate></lastBuildDate>
-    <pubDate></pubDate>
+    <pubDate>{{ site.time | date: "%-d %B %Y" }}</pubDate>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <webMaster>stephane@4eb.org.au</webMaster>
 	
@@ -25,7 +27,7 @@ layout: none
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <pubDate>{{ post.date | date: "%-d %B %Y" }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid>http://media.emit.com/4eb-d/studio-dessai/{{ post.date | date: "%Y%m%d" }}2200/aac_mid.m4a</guid>
 	<enclosure url="http://media.emit.com/4eb-d/studio-dessai/{{ post.date | date: "%Y%m%d" }}2200/aac_mid.m4a" type="audio/mpeg"/>
