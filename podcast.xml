@@ -4,7 +4,7 @@ layout: none
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 
-  <-- use gpodder best practice document for feeds: https://github.com/gpodder/podcast-feed-best-practice/blob/master/podcast-feed-best-practice.md --->
+  <!-- use gpodder best practice document for feeds: https://github.com/gpodder/podcast-feed-best-practice/blob/master/podcast-feed-best-practice.md --->
   
   <channel>
 
