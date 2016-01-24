@@ -15,15 +15,15 @@ layout: none
     </image>
     <language>en-AU</language>
     <copyright>Copyleft 2016</copyright>
-    <lastBuildDate></lastBuildDate>
-    <pubDate>{{ site.time | date: "%-d %B %Y" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y 22:00:00 %Z" }}</lastBuildDate>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y 22:00:00 %Z" }}</pubDate>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <webMaster>stephane@4eb.org.au</webMaster>
-    {% for post in site.posts limit:4 %}
+    {% for post in site.posts limit:6 %}
       <item>
 	<title>{{ post.title | xml_escape }}</title>
 	<description>{{ post.content | xml_escape }}</description>
-	<pubDate>{{ post.date | date: "%-d %B %Y" }}</pubDate>
+	<pubDate>{{ post.date | date: "%a, %d %b %Y 22:00:00 %Z" }}</pubDate>
 	<link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
 	<guid>http://media.emit.com/4eb-d/studio-dessai/{{ post.date | date: "%Y%m%d" }}2200/aac_mid.m4a</guid>
 	<enclosure url="http://media.emit.com/4eb-d/studio-dessai/{{ post.date | date: "%Y%m%d" }}2200/aac_mid.m4a" type="audio/mpeg"/>
