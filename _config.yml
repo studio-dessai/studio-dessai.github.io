@@ -8,4 +8,4 @@ url: "https://studio-dessai.github.io"
 # Build settings
 markdown: kramdown
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
