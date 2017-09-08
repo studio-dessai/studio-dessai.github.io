@@ -1,11 +1,12 @@
 ---
-layout: none
+layout:
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <!--use gpodder best practice document for feeds: https://github.com/gpodder/podcast-feed-best-practice/blob/master/podcast-feed-best-practice.md-->
+<!--validate the feed with the W3C validator: http://validator.w3.org/feed/-->
 <rss version="2.0">
-<channel>
-  <title>{{ site.title | xml_escape }}</title>
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
     <image>
@@ -18,7 +19,7 @@ layout: none
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-    <webMaster>stephane@4eb.org.au</webMaster>
+    <webMaster>stephane@4eb.org.au (Stéphane Guillou)</webMaster>
     {% for post in site.posts limit:6 %}
       <item>
 	<title>{{ post.title | xml_escape }}</title>
@@ -26,7 +27,8 @@ layout: none
 	<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 	<link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
 	<guid>http://media.emit.com/4eb-d/studio-dessai/{{ post.date | date: "%Y%m%d" }}2200/aac_mid.m4a</guid>
-	<enclosure url="http://media.emit.com/4eb-d/studio-dessai/{{ post.date | date: "%Y%m%d" }}2200/aac_mid.m4a" type="audio/mpeg"/>
+	<!--can't think of a way to get the actual length automatically-->
+	<enclosure url="http://media.emit.com/4eb-d/studio-dessai/{{ post.date | date: "%Y%m%d" }}2200/aac_mid.m4a" type="audio/mpeg" length="31578168"/>
 	<category>Podcasts</category>
       </item>
     {% endfor %}
