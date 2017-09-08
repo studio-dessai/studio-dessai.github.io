@@ -9,8 +9,18 @@ layout: default
   </header>
 
   <article class="post-content">
+  {{ audio }}
   {{ content }}
   </article>
-  <a href="https://studio-dessai.github.io">back</a>
+  
+  <div class="post-navigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  <a href="https://studio-dessai.github.io">home</a>
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+  </div>
 
 </div>
