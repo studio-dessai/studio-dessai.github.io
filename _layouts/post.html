@@ -16,7 +16,7 @@ layout: default
   {% capture postunix %}{{ page.date | date: '%s' }}{% endcapture %}
   {% assign postunix = postunix | minus: 0 %}
   {% if postunix > twomonthunix %}
-  <audio id="player" src="https://emit-media-production.s3.amazonaws.com/4eb-d/studio-dessai/{{ page.date | date: "%Y/%m/%d" }}/2200/{{ page.date | date: "%Y%m%d" }}2200_studio-dessai_64.m4a" controls>
+  <audio src="https://emit-media-production.s3.amazonaws.com/4eb-d/studio-dessai/{{ page.date | date: "%Y/%m/%d" }}/2200/{{ page.date | date: "%Y%m%d" }}2200_studio-dessai_64.m4a" controls>
   Your browser doesn't seem to be able to play embedded m4a audio.
   </audio>
   {% endif %}
