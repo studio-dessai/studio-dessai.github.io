@@ -23,6 +23,7 @@ layout:
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <webMaster>stephane@4eb.org.au (Stéphane Guillou)</webMaster>
     <itunes:category text="Music" />
+    <itunes:explicit>no</itunes:explicit>
     {% for post in site.posts limit:6 %}
     <item>
       <title>{{ post.title | xml_escape }}</title>
