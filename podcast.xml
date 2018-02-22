@@ -33,7 +33,7 @@ layout:
     <item>
       <title>{{ post.title | xml_escape }}</title>
       <description>{{ post.content | xml_escape }}</description>
-      <itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
+      <itunes:summary>{{ post.excerpt | xml_escape }}</itunes:summary>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
       <guid>http://media.emit.com/4eb-d/studio-dessai/{{ post.date | date: "%Y%m%d" }}2200/aac_mid.m4a</guid>
