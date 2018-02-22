@@ -17,12 +17,12 @@ layout:
       <link>{{ site.url }}{{ site.baseurl }}/</link>
     </image>
     <language>en-AU</language>
-    <copyright>Copyleft 2016</copyright>
+    <copyright>Copyleft 2018</copyright>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <webMaster>stephane@4eb.org.au (Stéphane Guillou)</webMaster>
-    <itunes:category text="Music"></itunes:category>
+    <itunes:category text="Music" />
     {% for post in site.posts limit:6 %}
     <item>
       <title>{{ post.title | xml_escape }}</title>
@@ -33,7 +33,7 @@ layout:
       <!--can't think of a way to get the actual length automatically-->
       <enclosure url="http://media.emit.com/4eb-d/studio-dessai/{{ post.date | date: "%Y%m%d" }}2200/aac_mid.m4a" type="audio/mpeg" length="31578168"/>
       <category>Podcasts</category>
-      <itunes:category text="Music"></itunes:category>
+      <itunes:category text="Music" />
       <itunes:explicit>no</itunes:explicit>
     </item>
     {% endfor %}
