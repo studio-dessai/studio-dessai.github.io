@@ -4,6 +4,7 @@ email: stephane@4eb.org.au
 description: "International experimental, electronic and free culture on Global Digital."
 baseurl: ""
 url: "https://studio-dessai.github.io"
+redirect_to: "https://studio-dessai.gitlab.io"
 
 # Build settings
 markdown: kramdown
